@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915237156473",
+    "firebase_url": "https://gmaap-bfc42.firebaseio.com",
+    "project_id": "gmaap-bfc42",
+    "storage_bucket": "gmaap-bfc42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915237156473:android:fb86d82439f29f9a",
+        "android_client_info": {
+          "package_name": "com.corebit.gmaap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915237156473-tqj4en6f4ingm3p14ad2j1vf7v3ja3jp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.corebit.gmaap",
+            "certificate_hash": "0fab899291b9efff521310ddf0170db6b91c5d1e"
+          }
+        },
+        {
+          "client_id": "915237156473-2pm40tj5b7t2cre2eddn9ip1172a4ebj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcDN5f6JHJEO-yIrjyAxI3IgW_BVi9ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915237156473-2pm40tj5b7t2cre2eddn9ip1172a4ebj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

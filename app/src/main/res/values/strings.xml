@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">gmaap</string>
+    <string name="start">GET STARTED</string>
+    <string name="text">Join Us On Social Media</string>
+    <string name="welcome">Welcome To GMap</string>
+    <string name="banner">BANNER LOGIN</string>
+    <string name="bustime">BUS TIME</string>
+    <string name="map">GEORGIAN MAP</string>
+    <string name="navigate">NAVIGATE GEORGIAN</string>
+    <string name="facebook_application_id" translatable="false">2389540294701747</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2389540294701747</string>
+    <string name="Gmap">Georgian College Visual Map</string>
+    <string name="permission">Permission Request</string>
+    <string name="per">Hola! GMap needs permission to access device location to provide required services. Please allow the permission.</string>
+    <string name="grant">Grant Permission</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="search">Search a place</string>
+    <string name="block">Find Block</string>
+</resources>
