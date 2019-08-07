@@ -22,4 +22,5 @@
     <string name="twitter">Twitter</string>
     <string name="point">Location Pin</string>
     <string name="logo">Logo</string>
+    <string name="signout">Sign Out</string>
 </resources>

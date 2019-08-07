@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Permission"
-    android:padding="32dp">
+    android:background="@android:drawable/screen_background_dark"
+    android:padding="32dp"
+    tools:context=".Permission">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -26,8 +27,9 @@
             android:layout_marginTop="12dp"
             android:fontFamily="sans-serif-condensed"
             android:text="@string/permission"
+            android:textColor="#FAF9F9"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descriptionText"
@@ -35,7 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:gravity="center_horizontal"
-            android:text="@string/per" />
+            android:text="@string/per"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
