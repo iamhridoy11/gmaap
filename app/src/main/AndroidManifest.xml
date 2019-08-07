@@ -21,7 +21,6 @@
         <activity android:name=".Permission" />
         <activity android:name=".VisualMap" />
         <activity android:name=".Login" />
-        <activity android:name=".Welcome" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

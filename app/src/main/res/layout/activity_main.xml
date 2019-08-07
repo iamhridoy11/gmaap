@@ -10,44 +10,66 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="212dp"
-        android:layout_height="211dp"
-        app:srcCompat="@drawable/applogo"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="127dp" />
+        android:layout_height="0dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="47dp"
+        android:contentDescription="@string/GmapLogo"
+        app:layout_constraintBottom_toTopOf="@+id/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/applogo" />
 
     <Button
         android:id="@+id/enter"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/oval"
         android:text="@string/start"
         android:textColor="#F3F1F1"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="385dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="@string/text"
         android:textColor="#FCFBFB"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintBottom_toTopOf="@+id/facebookImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter" />
 
     <ImageView
         android:id="@+id/facebookImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/facebook"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="521dp" />
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="160dp"
+        android:contentDescription="@string/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/twitterImage"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/facebook" />
 
     <ImageView
         android:id="@+id/twitterImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/twitter"
-        tools:layout_editor_absoluteX="207dp"
-        tools:layout_editor_absoluteY="521dp" />
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/twitter"
+        app:layout_constraintBottom_toBottomOf="@+id/facebookImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/facebookImage"
+        app:layout_constraintTop_toTopOf="@+id/facebookImage"
+        app:srcCompat="@drawable/twitter" />
 </androidx.constraintlayout.widget.ConstraintLayout>

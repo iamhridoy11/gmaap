@@ -16,4 +16,10 @@
     <string name="title_activity_map">MapActivity</string>
     <string name="search">Search a place</string>
     <string name="block">Find Block</string>
+    <string name="todo">TODO</string>
+    <string name="GmapLogo">Gmap Logo</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="point">Location Pin</string>
+    <string name="logo">Logo</string>
 </resources>

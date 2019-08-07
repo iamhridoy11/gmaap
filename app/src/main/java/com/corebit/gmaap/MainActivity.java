@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openWelcome()
     {
-        Intent intent = new Intent(MainActivity.this, Permission.class);
+        Intent intent = new Intent(MainActivity.this, Login.class);
         startActivity(intent);
     }
 }

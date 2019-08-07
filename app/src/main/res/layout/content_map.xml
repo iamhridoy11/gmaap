@@ -27,8 +27,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:translationY="-24dp"
-            android:src="@drawable/ic_placeholder"/>
+            android:contentDescription="@string/point"
+            android:src="@drawable/ic_placeholder"
+            android:translationY="-24dp" />
 
     </com.skyfishjy.library.RippleBackground>
 
